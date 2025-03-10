@@ -8,17 +8,17 @@
 <body>
  <form>
 
-
-
+<fieldset>
+<legend>personal information:</legend>
 
 <label for="firstname">firstname</label><br>
-<input type="text" id="firstname" name="firstname"><br>
+<input type="text" id="firstname" name="firstname" value="AMAR" readonly><br>
 <label for="lastname">lastname</label><br>
-<input type="lastname"  id="lastname" name="lastname"><br>
+<input type="lastname"  id="lastname" name="lastname" disabled  ><br>
 <label for="email">email</label><br>
-<input type="email" id="email" name="email"><br>
+<input type="email" id="email" name="email"required><br>
 <label for="password">password</label><br>
-<input type="password"  id="password" name="password"><br><br>
+<input type="password"  id="password" name="password" size="40" placeholder="password"><br><br>
 <input type="submit"  id="submit" name="submit">
 <label>Gender:</label><br>
 <input type="radio"   id="male"  name="Gender"    value="male">
@@ -42,5 +42,12 @@
 <input type="submit"  id="submit" name="submit"><br>
 
    </form>
+
+<textarea   name="massage"  rows="10"  cols="20" maxlength="50"></textarea>
+  
+</fieldset>
+
+
+
  </body>
 </html>
