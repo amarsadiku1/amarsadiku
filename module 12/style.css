@@ -1,0 +1,35 @@
+a link{
+
+color: brown;
+
+
+}
+
+
+
+a :visited {
+
+
+color: blueviolet;
+
+
+}  
+
+
+a :hover{
+
+
+color: blue;
+
+
+
+}
+
+
+a :active{
+
+
+color: chocolate;
+
+
+}
