@@ -1,0 +1,39 @@
+div.gallery{
+float: left;
+padding: 0px;
+}
+
+
+
+
+div.gallery:hover{
+width: 100px;
+border: 1px  solid black ;
+}
+
+image div.gallery{
+
+width: 100%;
+height: auto;
+
+}
+
+div.desc{
+
+text-align: center;
+padding: 15px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
