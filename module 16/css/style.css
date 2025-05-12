@@ -1,4 +1,4 @@
-div.gallery{
+/* div.gallery{
 float: left;
 padding: 0px;
 }
@@ -26,14 +26,54 @@ padding: 15px;
 
 
 }
+ */
+
+
+.sprite{
+
+background: url(../img/houses.png) ;
+
+
+}
+
+
+
+.enginieer{
+
+height: 500px;
+width: 500px;
+display: inline-block;
+background-position: -500px -500px;
+
+
+}
+div[id~="ds"]{
+background-color: blue;
+color: white;
+padding: 20px;
+}
+
+
+
+img[title="2"]{
+border: 2px   solid blue;
+
+
+}
+
+
+h1[class= heading]{
+    background-color: darkblue;
+color: aliceblue;
+padding: 20px;
+
+
+}
 
 
 
 
 
-
-
-
-
-
-
+input[:placeholder$="name"]{
+border: 2px solid green;
+}
