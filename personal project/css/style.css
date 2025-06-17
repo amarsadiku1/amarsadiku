@@ -1,0 +1,34 @@
+.service-card{
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.service-image {
+    height: 150px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    object-fit: cover;
+}
+
+
+body {
+    background-color: rgb(70, 12, 12);
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+}
+
+header{
+    padding: 55px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
