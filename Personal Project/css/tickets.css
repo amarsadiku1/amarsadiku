@@ -1,0 +1,45 @@
+*{
+    background-color: #b2bb1e;
+}
+
+h1{
+    font-size: 100px;
+    margin-top: 100px;
+    text-align: center;
+    color: #f47736;
+}
+
+h3{
+    margin-top: -80px;
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+
+#h5-1{
+    text-align: center;
+    font-size: 25px;
+}
+
+#h5-2{
+    text-align: center;
+    font-size: 25px;
+}
+
+#h5-3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.btn-back a{
+    color: black;
+    background-color: #B6D0E2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-back{
+    background-color: #B6D0E2;
+    padding: 15px;
+    border-radius: 15px;
+}
