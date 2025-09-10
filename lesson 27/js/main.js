@@ -23,15 +23,15 @@ console,kiy(trangel(5,4))
 var car={
     name:"mercedes",
     color: "red",
-    year:2020 
+    year:2020 ,
      
 startEngine : function() {
     alert("Vrooommmm!!!");
-}
+},
 
 get getName() {
     return this.name;
-}
+},
 set setName(name) {
     this.name=name;
 }
@@ -44,3 +44,19 @@ car.startEngine();
 console.log(car.getName);
 car.setName="BMW";
 console.log(car.getName);
+
+
+function computer(name , CPU, RAM, GPU) {
+    this.name=name;
+    this.CPU=CPU;
+    this.RAM=RAM;
+    this.GPU=GPU;
+}
+
+
+var computer1 = new Computer("MacBook", "M1 8-core",  "8GB", "GPU");
+
+
+
+
+
