@@ -1,0 +1,24 @@
+.slide {
+    width: 100%;
+}
+
+
+.perv, .next{
+    cursor: pointer;
+    position:  absolute;
+    top: 50%;
+    padding: 20px;
+}
+
+
+
+.next {
+    right: 0;
+} 
+
+
+
+
+.perv:hover, .next:hover {
+    background-color: rgba( 0, 0, 0, 0.8);
+}
